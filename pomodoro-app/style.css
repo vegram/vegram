@@ -1,0 +1,135 @@
+html {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    min-height: 100vh;
+    color: #d8e9ef;
+    background-image: linear-gradient(-20deg, #6d2fc5 0%, #475f9b 100%);
+    background-size: cover;
+  }
+
+  h1{
+    margin: 0 auto 2px auto;
+    width: auto;
+    color: hsl(276, 100%, 91%);
+    font-size: 55px;
+    padding: 0px;
+    text-shadow: -2px -2px 0 #02020d;
+  }
+
+  h2 {
+    font-style: italic;
+    font-size: 18px;
+    color: #eaff7f;
+    padding-bottom: 35px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .app-message {
+    height: 20px;
+    margin: 40px auto 40px auto;
+    font-size: 18px;
+  }
+  
+  .app-container {
+    width: 700px;
+    height: 420px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .app-circle {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .circle-shape {
+    pointer-events: none;
+  }
+
+  .semi-circle {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    box-sizing: border-box;
+    border: solid 6px;
+  }
+  
+  .left-side {
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+    transform: rotate(0deg);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+    z-index: 1;
+  }
+  
+   .right-side {
+    top: 0;
+    left: 100px;
+    transform-origin: left center;
+    transform: rotate(0deg);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+  }
+
+  .circle {
+    border-color: #eaff7f;
+  }
+  
+  .circle-mask {
+    border-color: #e85a71;
+  }
+
+  .app-counter-box {
+    font-family: "orbitron", monospace;
+    font-size: 230%;
+    position: relative;
+    top: 50px;
+    color: #d8e9ef;
+  }
+  
+  button {
+    position: relative;
+    top: 50px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #d8e9ef;
+  }
+  
+  button:hover {
+    color: #90c0d1;
+  }
+
+  #videoplayer {
+    padding-top: 20px;
+  }
+
+  #lofi {
+    text-transform: none;
+    height: 35px;
+    width: 240px;
+    border: solid 3px black;
+    border-radius: 45px;
+    background-color: #161616;
+    margin-bottom: 40px;
+    margin-top: 45px;
+  }
+
+  #lofi:hover {
+    border-color: hsl(276, 100%, 91%);
+  }
